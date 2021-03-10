@@ -1,0 +1,109 @@
+.cursor-pointer tr {
+    cursor: pointer;
+}
+
+.col-filter {
+    width: 16.2%;
+    float: left;
+}
+
+.col-title {
+    width: 63.3%;
+}
+
+.paging-div {
+    width: 63.7%;
+}
+
+.create-wrapper-div {
+    width: 19.5%;
+}
+
+.dataTable, .dataTable th {
+    text-align: center;
+}
+
+.manage-btn {
+    width: 12.5%;
+}
+
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(25%, rgba(255,255,255,0.9)), color-stop(75%, rgba(255,255,255,0.9)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+}
+
+.th-revision th{
+    padding: 15px !important;
+}
+
+.table>thead>tr>th {
+    padding: 14px 11px;
+}
+.uk-notify {
+    width: initial;
+}
+
+.uk-notify-message > div {
+    display: inline-block;
+}
+
+.bootstrap-validator-form .help-block{margin-bottom:0}
+
+.alert.parsley {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+.check .alert {
+    margin-top: 20px;
+}
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+    margin: 2px 0 3px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    opacity: 0;
+
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+}

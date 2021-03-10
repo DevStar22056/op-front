@@ -1,0 +1,6 @@
+For some of the icons it's not possible to define generic
+styles due to it's complexity. In such cases, there will be a
+.styl file defining how the icon should act in an specific style.
+
+For the rest of them, styles from assets/css/icons.styl
+will be applied
